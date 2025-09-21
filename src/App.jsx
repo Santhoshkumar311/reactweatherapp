@@ -67,10 +67,10 @@ WeatherDetails.propTypes = {
 function App() {
   
   let api_key = 'bdcab7a432dd2e989ef0193622bc1fc3'
-  const [text,setText]= useState("Chennai")
+  const [text,setText]= useState("")
 const [icon, setIcon] = useState(snowIcon)
 const [temp, setTemp] = useState(0)
-const [city, setCity] = useState("Chennai")
+const [city, setCity] = useState("")
 const [country, setCountry] = useState("India")
 const [latitude, setLatitude] = useState(0)
 const [longitude, setLongitude] = useState(0)
